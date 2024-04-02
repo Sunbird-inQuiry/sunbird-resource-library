@@ -37,6 +37,7 @@ export class LibraryFilterComponent implements OnInit, OnChanges {
               private helperService: HelperService) { }
 
   ngOnInit() {
+    console.log('searchFormConfig ==>', this.searchFormConfig);
     this.filterFields = this.searchFormConfig;
     this.setFilterDefaultValues();
     this.fetchFrameWorkDetails();
