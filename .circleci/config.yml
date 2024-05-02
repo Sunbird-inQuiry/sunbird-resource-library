@@ -33,9 +33,9 @@ jobs:
     #   - run:
     #       name: Install sonar scanner
     #       command: npm install -g sonarqube-scanner
-      - run:
-          name: Run sonar scanner
-          command: 'cd ~/sunbird-resource-library && sonar-scanner'
+    #   - run:
+    #       name: Run sonar scanner
+    #       command: 'cd ~/sunbird-resource-library && sonar-scanner'
 workflows:
   version: 2.1
   build_and_test:
