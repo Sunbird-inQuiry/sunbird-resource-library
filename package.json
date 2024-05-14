@@ -41,8 +41,6 @@
     "fine-uploader": "^5.15.7",
     "font-awesome": "^4.7.0",
     "fs-extra": "^8.1.0",
-    "gulp": "^5.0.0",
-    "gulp-svgmin": "^4.0.0",
     "jquery": "^3.7.1",
     "jquery.fancytree": "^2.38.3",
     "karma-mocha-reporter": "^2.2.5",
